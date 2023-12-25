@@ -34,13 +34,11 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
-
+  -- user('nvim-lua/plenary.nvim')
+  use('theprimeagen/harpoon')
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
   use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
-
   use("folke/tokyonight.nvim")
-
-
 end)
