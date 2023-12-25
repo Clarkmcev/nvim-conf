@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/clark/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/clark/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/home/clark/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
