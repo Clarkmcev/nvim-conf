@@ -179,6 +179,11 @@ _G.packer_plugins = {
     path = "/home/clark/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  undotree = {
+    loaded = true,
+    path = "/home/clark/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/home/clark/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
