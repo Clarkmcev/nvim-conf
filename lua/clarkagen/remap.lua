@@ -54,3 +54,6 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 vim.keymap.set("n", "ui", function() vim.cmd(":u") end)
+
+-- telescope config
+vim.keymap.set('n', '<leader>sf', require('telescope.builtin').find_files, { desc = '[S]earch [F]ilter' })
